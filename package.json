@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/MadMax1776/Project-Dex/issues"
   },
-  "homepage": "https://github.com/MadMax1776/Project-Dex#readme"
+  "homepage": "https://github.com/MadMax1776/Project-Dex#readme",
+  "devDependencies": {
+    "ipfs": "^0.57.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
