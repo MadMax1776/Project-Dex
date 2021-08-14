@@ -1,0 +1,19 @@
+{
+  "name": "dex",
+  "version": "0.0.1",
+  "description": "Decentralized Exchange",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadMax1776/Project-Dex.git"
+  },
+  "author": "Max Meacham John Marquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadMax1776/Project-Dex/issues"
+  },
+  "homepage": "https://github.com/MadMax1776/Project-Dex#readme"
+}
