@@ -18,7 +18,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => {
+app.get('/goldPrice', (req, res) => {
   res.send('online').status(200).end();
 });
 
