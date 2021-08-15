@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  project-dex:
+    build: .
+    container_name: project-dex
+    hostname: project-dex
+    networks:
+      default:
+    ports: [8080:8080]
+    restart: unless-stopped
+
+networks:
+  default:
