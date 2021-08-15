@@ -4,6 +4,7 @@ const app = express();
 const os = require('os');
 const ifaces = os.networkInterfaces();
 const port = process.env.PORT || 8080;
+const routes = require('./routes/routes');
 
 app.use(express.json());
 app.use(express.json({ limit: '50mb' }));
@@ -18,9 +19,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/goldPrice', (req, res) => {
-  res.send('online').status(200).end();
-});
+app.use('/api/v1/', routes);
 
 // serve app
 const server = http.createServer(app);
